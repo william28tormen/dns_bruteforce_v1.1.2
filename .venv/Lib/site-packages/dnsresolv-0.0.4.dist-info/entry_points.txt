@@ -1,0 +1,2 @@
+[console_scripts]
+dnsresolv = dnsresolv.main:main
