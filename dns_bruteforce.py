@@ -1,6 +1,4 @@
 import sys
-from linecache import clearcache
-
 import dns.resolver
 
 resolver = dns.resolver.Resolver()
@@ -27,4 +25,4 @@ for subdominio in subdominios:
 	except:
             pass
 print('------------------------------')
-print('Brute Force DNS - Finalizado!')clearcache()
+print('Brute Force DNS - Finalizado!')
